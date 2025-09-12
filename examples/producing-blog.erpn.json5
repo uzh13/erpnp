@@ -1,0 +1,260 @@
+{
+  type: {
+    name: "timed process notation",
+    version: "0.0.1"
+  },
+  content: {
+    link: "",
+    name: "Method8 introducing blog",
+    version: "0.0.1",
+    essence: {
+      contradictions: {
+        fundamental: {
+          thesis: "No money",
+          antithesis: "I need money"
+        },
+        space: {
+          space: "social, internet",
+          limitations: [
+            "no criminal",
+            "decrease time using or time limitations for other projects"
+          ],
+          actors: [
+            "Stepan",
+          ]
+        },
+        tradeoffs: [
+          "I can do something",
+          "I don't need too much money"
+        ],
+        resoureces: [
+          "method 8 knowledge",
+          "desire to make blog",
+        ]
+      },
+      synthesis: {
+        fundamental: "Make multilanguage blog with paywalled core content and aimed to help people to understand what\
+         is going on and what is going to happen",
+        resources: [
+          "method 8",
+          "video editing",
+          "animation",
+          "pay collecting",
+          "creativity",
+          "video viral hack",
+          "screenplayng",
+          "capitaning",
+        ],
+        advantages: [
+          "understandable income process",
+          "social proof for futher projects",
+          "no location lock",
+          "programmer non reresponsible detox",
+          "sun technologies light polygon"
+        ]
+      },
+      realization: {
+        inputs: [
+          {
+            name: "Social reaction",
+            type: "common",
+            describe: "How sociality react to blog with attention and money"
+          },
+          {
+            name: "self feeling",
+            type: "common",
+            describe: "How i feel myself with making blog"
+          },
+          {
+            name: "money",
+            type: "timed digit",
+            describe: "how many balanced money it makes"
+          },
+        ],
+        outputs: [
+          {
+            name: "money",
+            type: "timed digit",
+            describe: "how many balanced money it makes"
+          },
+          {
+            name: "noosphere expanding",
+            type: "common",
+            describe: "enrich humanity with cognite methodology"
+          },
+        ],
+        resourses: [
+          {
+            name: "time",
+            type: "timed digit",
+            describe: "spend time to think about it and make it"
+          },
+          {
+            name: "enforce",
+            type: "common",
+            describe: "putting effort to make it"
+          },
+        ],
+        values: [
+          {
+            name: "money",
+            type: "timed digit",
+            describe: "how many balanced money it makes"
+          },
+          {
+            name: "heritage",
+            type: "common",
+            describe: "awareness of my legacy, sense of legacy"
+          },
+        ],
+        describe: "Indy blog for mind driven people like personal one-themed dairy"
+      }
+    },
+    timing: {
+      start: "2025-09-11 12:00",
+      end: null,
+      impact: "100%",
+      authors: [
+        {
+          name: "Stepan",
+          impact: "100%",
+          position: "capitan",
+          comment: "just think about it"
+        }
+      ],
+      sources: [
+        "creating"
+      ],
+    },
+    contents: [
+      {
+        link: "",
+        name: "Method8 introducing blog",
+        version: "0.0.1",
+        essence: {
+          contradiction: {
+            fundamental: {
+              thesis: "No money",
+              antithesis: "I need money"
+            },
+            space: {
+              space: "social, internet",
+              limitations: [
+                "no criminal",
+                "decrease time using or time limitations for other projects"
+              ],
+              actors: [
+                "Stepan",
+              ]
+            },
+            tradeoffs: [
+              "I can do something",
+              "I don't need too much money"
+            ],
+            resoureces: [
+              "method 8 knowledge",
+              "desire to make blog",
+            ]
+          },
+          synthesis: {
+            fundamental: "Make multilanguage blog with paywalled core content and aimed to help people to understand what is \
+      going on and what is going to happen",
+            resources: [
+              "method 8",
+              "video editing",
+              "animation",
+              "pay collecting",
+              "creativity",
+              "video viral hack",
+              "screenplayng",
+              "capitaning",
+            ],
+            advantages: [
+              "understandable income process",
+              "social proof for futher projects",
+              "no location lock",
+              "programmer non reresponsible detox",
+              "sun technologies light polygon"
+            ]
+          },
+          realization: {
+            inputs: [
+              {
+                name: "Social reaction",
+                type: "common",
+                describe: "How sociality react to blog with attention and money"
+              },
+              {
+                name: "self feeling",
+                type: "common",
+                describe: "How i feel myself with making blog"
+              },
+              {
+                name: "money",
+                type: "timed digit",
+                describe: "how many balanced money it makes"
+              },
+            ],
+            outputs: [
+              {
+                name: "money",
+                type: "timed digit",
+                describe: "how many balanced money it makes"
+              },
+              {
+                name: "noosphere expanding",
+                type: "common",
+                describe: "enrich humanity with cognite methodology"
+              },
+            ],
+            resourses: [
+              {
+                name: "time",
+                type: "timed digit",
+                describe: "spend time to think about it and make it"
+              },
+              {
+                name: "enforce",
+                type: "common",
+                describe: "putting effort to make it"
+              },
+            ],
+            values: [
+              {
+                name: "money",
+                type: "timed digit",
+                describe: "how many balanced money it makes"
+              },
+              {
+                name: "heritage",
+                type: "common",
+                describe: "awareness of my legacy, sense of legacy"
+              },
+            ],
+            describe: "Indy blog for mind driven people like personal one-themed dairy"
+          },
+        },
+        timing: {
+          start: "2025-09-11 12:00",
+          end: null,
+          impact: "100%",
+          authors: [
+            {
+              name: "Stepan",
+              impact: "100%",
+              position: "capitan",
+              comment: "just think about it"
+            },
+          ],
+          source: [
+            "creating"
+          ]
+        },
+        contents: {
+        },
+        changes: []
+      },
+    ],
+    changes: []
+  },
+}
