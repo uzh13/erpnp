@@ -20,7 +20,11 @@ The CI pipeline runs: `make tidy`, `make lint`, `make test`, `make build`
 
 ## Architecture
 
-This is a Go project for Evolving Resolutive Process Notation Processor (ERPNP) with two main parts:
+This is a Go project for Evolving Resolutive Process Notation (ERPN).
+
+ERPN schema https://github.com/SchemaStore/schemastore/blob/master/src/schemas/json/evolving-resolutive-process-notation-1.0.json
+
+Project contains two main parts:
 
 ### CLI Tool (`cmd/processor/`)
 - Main entry point provides subcommands: `validate`, `transform`, `add`, `remove`, `sum`, `wasm`
