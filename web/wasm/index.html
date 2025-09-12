@@ -6,14 +6,25 @@
 </head>
 <body>
 <h1>erpnp WASM test</h1>
-<button id="btn">Call wasm</button>
+<div id="status">Loading WASM...</div>
+<button id="btn" disabled>Call wasm</button>
+<script src="wasm_exec.js"></script>
 <script>
+    const go = new Go();
+    WebAssembly.instantiateStreaming(fetch("erpnp.wasm"), go.importObject).then((result) => {
+        go.run(result.instance);
+        document.getElementById('status').textContent = 'WASM loaded successfully!';
+        document.getElementById('btn').disabled = false;
+    }).catch((err) => {
+        document.getElementById('status').textContent = 'Failed to load WASM: ' + err;
+    });
+
     const btn = document.getElementById('btn')
     btn.onclick = () => {
         if (typeof helloFromWasm === 'function') {
             alert(helloFromWasm())
         } else {
-            alert('WASM not loaded — build with `make build-wasm` and serve this dir')
+            alert('WASM function not available')
         }
     }
 </script>

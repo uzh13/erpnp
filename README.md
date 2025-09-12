@@ -2,6 +2,8 @@
 
 A Go-based CLI tool and WebAssembly library for processing ERPN files.
 
+ERPN schema https://github.com/SchemaStore/schemastore/blob/master/src/schemas/json/evolving-resolutive-process-notation-1.0.json
+
 ## Quick Start
 
 ```bash

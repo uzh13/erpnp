@@ -5,7 +5,7 @@ WASM_OUT=web/wasm/erpnp.wasm
 GO=go
 
 
-.PHONY: all build build-wasm test lint fmt tidy clean run docker-build
+.PHONY: all build build-wasm test lint fmt tidy clean run docker-build serve-wasm
 
 
 all: build
@@ -45,3 +45,9 @@ clean:
 
 docker-build:
 	docker build -t processor:latest .
+
+
+serve-wasm: build-wasm
+	@echo "Starting server at http://localhost:8080"
+	@echo "Open http://localhost:8080 in your browser"
+	cd web/wasm && python3 -m http.server 8080
