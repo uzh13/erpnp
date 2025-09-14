@@ -8,6 +8,8 @@ type CommonObject struct {
 
 	// Extra holds any additional fields not defined in the schema
 	Extra map[string]interface{} `json:"-" yaml:"-" toml:"-" json5:"-"`
+
+	start, end []*Node
 }
 
 func (c *CommonObject) UnmarshalJSON(data []byte) error {

@@ -14,6 +14,8 @@ type ContentObject struct {
 
 	// Extra holds any additional fields not defined in the schema
 	Extra map[string]interface{} `json:"-" yaml:"-" toml:"-" json5:"-"`
+
+	Node *Node
 }
 
 func (c *ContentObject) UnmarshalJSON(data []byte) error {

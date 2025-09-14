@@ -12,6 +12,8 @@ type ERPN struct {
 
 	// Extra holds any additional fields not defined in the schema
 	Extra map[string]interface{} `json:"-" yaml:"-" toml:"-" json5:"-"`
+
+	Tree *Tree
 }
 
 // UnmarshalJSON implements custom JSON unmarshaling to preserve unknown fields
